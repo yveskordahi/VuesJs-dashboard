@@ -29,9 +29,7 @@
                                 <router-link class="" to="/Dashboard"><a href="dashboard.html"><button class="btn-login">Se connecter</button></a></router-link>
                               </div>
     
-                              <hr class="login--separator">
-    
-                              <p class="not__register--text">Vous n'avez pas de compte ? <router-link class="" to="/"><a class="button__not-register" href="create-account.html">Créez en un !</a></router-link></p>
+                              
                             </div>
                             </form>
                         </div> 
