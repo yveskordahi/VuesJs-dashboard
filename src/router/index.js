@@ -1,17 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import Inscription from '../views/Inscription.vue'
+import Infoprofile from '../views/Infoprofile.vue'
 import Connexion from '../views/Connexion.vue'
-import Prix from '../views/Prix.vue'
-
-import Dashboard from '@/components/Dashboard.vue';
-import Graph from '@/components/Graph.vue';
-import Avis from '@/components/Avis.vue';
-import Avisdetails from '@/components/Avisdetails.vue';
-import Documentation from '@/components/Documentation.vue';
-import UserID from '@/components/UserID.vue';
-import Users from '@/components/Users.vue';
+import Addprofile from '../views/Addprofile.vue'
 
 Vue.use(VueRouter)
 
@@ -22,9 +14,9 @@ const routes = [
     component: Home
   },
   {
-    path: '/Inscription',
-    name: 'Inscription',
-    component: Inscription
+    path: '/Infoprofile',
+    name: 'Infoprofile',
+    component: Infoprofile
   },
   {
     path: '/Connexion',
@@ -32,44 +24,9 @@ const routes = [
     component: Connexion
   },
   {
-    path: '/Prix',
-    name: 'Prix',
-    component: Prix
-  },
-  {
-    path: '/Dashboard',
-    name: 'Dashboard',
-    component: Dashboard
-  },
-  {
-    path: '/Graph',
-    name: 'Graph',
-    component: Graph
-  },
-  {
-    path: '/Avis',
-    name: 'Avis',
-    component: Avis
-  },
-  {
-    path: '/Avisdetails',
-    name: 'Avisdetails',
-    component: Avisdetails
-  },
-  {
-    path: '/Documentation',
-    name: 'Documentation',
-    component: Documentation
-  },
-  {
-    path: '/UserID',
-    name: 'UserID',
-    component: UserID
-  },
-  {
-    path: '/Users',
-    name: 'Users',
-    component: Users
+    path: '/Addprofile',
+    name: 'Addprofile',
+    component: Addprofile
   }
 ]
 

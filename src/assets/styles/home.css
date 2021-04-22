@@ -1,15 +1,42 @@
 .home {
-  width: calc(100% - 60px);
+  width: calc(100% - 150px);
   height: calc(100% - 7%);
   position: absolute;
   top: 4%;
-  left: 60px;
+  left: 150px;
+}
+
+.block__title {
+  display: flex;
+  width: 92%;
+  justify-content: space-between;
 }
 
 .home__title {
   font-family: "Open Sans", sans-serif;
-  font-size: 20px;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.home__subtitle {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12px;
   font-weight: 600;
+  color: #2F80ED;
+  margin-bottom: 6px;
+}
+
+.create__profile-block {
+  display: flex;
+  align-items: center;
+}
+
+.create__profile__btn {
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  color: #333333;
+  font-weight: 600;
+  border-bottom: solid 2px #2F80ED;
 }
 
 .home__content {
@@ -196,8 +223,12 @@
   margin-bottom: 10px;
 }
 
+form {
+  margin-bottom: 0;
+}
+
 .icon {
-  padding: 7px;
+  padding-top: 14px;
   padding-left: 7px;
   color: #818181;
   width: 30px;
@@ -205,15 +236,34 @@
   font-size: 17px;
 }
 
+.search__block {
+  margin-top: 20px;
+  width: 92%;
+}
+
 .searchbox {
-  background-color: rgba(47, 128, 237, 0.1);
-  border: none;
-  width: 300px;
-  padding: 7px;
+  border: 1px solid rgba(47, 128, 237, 0.3);
+  width: 80%;
+  padding: 15px;
   padding-left: 30px;
   font-size: 13px;
   font-weight: 500;
   border-radius: 5px;
+}
+
+.under__searchbox {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 80%;
+  margin-top: 20px;
+}
+
+.under__searchbox__logo {
+  width: 65px;
+  margin-left: 3px;
 }
 
 .inner__navbar__trash {
@@ -355,53 +405,4 @@
 
 ::-webkit-scrollbar {
   display: none;
-}
-
-@media (max-width: 1380px) {
-  .home {
-    left: 45px;
-  }
-
-  .content__credit-card {
-    width: 48%;
-    height: 75%;
-  }
-
-  .content__notifications {
-    width: 48%;
-    height: 75%;
-    margin-left: 2%;
-  }
-}
-
-@media (max-width: 1200px) {
-    .home {
-      left: 0;
-      top: 2%;
-      width: 98%;
-      height: 95%;
-    }
-
-    .home__title {
-      text-align: center;
-    }
-
-    .home__content {
-      flex-direction: column;
-      align-items: center;
-      height: 95%;
-      margin-top: 1%;
-    }
-
-    .content__credit-card {
-        width: 75%;
-        height: 72%;
-    }
-
-    .content__notifications {
-        width: 75%;
-        height: 72%;
-        margin-left: 0;
-        margin-top: 1%;
-    }
 }

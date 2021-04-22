@@ -1,23 +1,11 @@
 <template>
     <div>
-        <nav>
-            <input type="checkbox" id="check">
-            <label for="check" class="checkbtn">
-                <font-awesome-icon :icon="['fas', 'bars']" />
-            </label>
-            <router-link class="" to="/Home"><a href=""><img src="../assets/img/Logo_2.svg" class="logo"></a></router-link>
-            <ul>
-                <li><router-link class="" to="/Prix"><a href="">Prix</a></router-link></li>
-                <li><router-link class="" to="/Connexion"><a href="">Connexion</a></router-link></li>
-                <li><router-link class="" to="/Inscription"><a class="sign__up__btn" href="">Inscription</a></router-link></li>
-            </ul>
-        </nav>
         <section>
             <div class="container--create__account">
                 <div class="home__add-users">
                     <div class="home__content__login">
                         <div class="form__container">
-                            <form action="action_page.php">
+                            <form action="">
         
                                 <div class="form__title">
                                     <p>Consultez les notations et emmettez des avis</p>
@@ -43,7 +31,7 @@
     
                               <hr class="login--separator">
     
-                              <p class="not__register--text">Vous n'avez pas de compte ? <router-link class="" to="/Inscription"><a class="button__not-register" href="create-account.html">Créez en un !</a></router-link></p>
+                              <p class="not__register--text">Vous n'avez pas de compte ? <router-link class="" to="/"><a class="button__not-register" href="create-account.html">Créez en un !</a></router-link></p>
                             </div>
                             </form>
                         </div> 
@@ -59,12 +47,21 @@
 </script>
 
 <style scoped>
-@import '../assets/styles/reset.css';
-@import '../assets/styles/sidebar.css';
-@import '../assets/styles/style.css';
-@import '../assets/styles/navbar.css';
-@import '../assets/styles/pricing.css';
-@import '../assets/styles/addUsers.css';
-@import '../assets/styles/create--account.css';
-@import '../assets/styles/login.css';
+@import '../assets/styles/connexion/1reset.css';
+@import '../assets/styles/connexion/1addUsers.css';
+@import '../assets/styles/connexion/1create--account.css';
+@import '../assets/styles/connexion/1login.css';
+
+body {
+    background-color: #F6FAFF;
+}
+
+section {
+    height: 100vh;
+    background-color: #F6FAFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 </style>

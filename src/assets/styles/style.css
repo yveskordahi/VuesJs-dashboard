@@ -1,16 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
 
 .area {
-    background: #F6FAFF;
-    width: calc(100% - 60px);
-    height: calc(100% - 7%);
+    background: #FFF;
+    width: calc(100% - 230px);
+    height: calc(100% - 10%);
     position: absolute;
-    top: 7%;
-    left: 60px;
+    top: 10%;
+    left: 230px;
 }
 
 body {
-    background: #F6FAFF;
+    background: #fff;
 }
 
 section {
