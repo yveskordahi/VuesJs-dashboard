@@ -64,16 +64,16 @@
                       </a> 
                   </li>
                 </router-link>
-                <router-link class="" to="/Documentation">
+                
                   <li>
-                      <a href="">
+                    <a target="_blank" href="https://documenter.getpostman.com/view/11471142/TzJvewxp#intro">
                          <i class="fa fa-info fa-2x"></i>
                           <span class="nav-text">
                               Documentation
                           </span>
                       </a>
                   </li>
-                </router-link>
+                
               </ul>
   
               <ul class="logout">
@@ -343,6 +343,7 @@ export default {
       msg: String
     }
   }
+
 </script>
 
 <style scoped>
