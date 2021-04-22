@@ -193,4 +193,23 @@
     font-weight: 600;
     cursor: pointer;
 }
+
+@media (max-width: 800px) {
+    
+.add__users__button .button__paiment-btn {
+    background-color: #2F80ED;
+    border: none;
+    color: white;
+    padding: 16px 29px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    }
+}
+
 </style>

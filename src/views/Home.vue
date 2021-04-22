@@ -18,7 +18,7 @@
                     <h1>Système de notation entre <br> hôtels et particuliers</h1>
                     <p>Fidélisez votre clientèle grâce à notre service de <br> notation et découvrez les meilleurs clients.</p>
                     <div class="block__text__button">
-                        <div class="add__users__button">
+                        <div class="add__users__buttons home_btn">
                             <a href=""><button>Démarrer maintenant</button></a>
                             <a class="button__contact" href="">Contacter un expert</a>
                         </div>
@@ -54,7 +54,7 @@
     -ms-user-select: none;
 }
 
-.add__users__button button {
+.add__users__buttons button {
     background-color: #2F80ED;
     border: none;
     color: white;
@@ -68,4 +68,30 @@
     font-weight: 600;
     cursor: pointer;
 }
+
+.add__users__buttons .home_btn {
+    display: inline;
+}
+
+@media (max-width: 800px) {
+    section {
+    margin-top: 30px;
+    }
+
+    .add__users__buttons button {
+    background-color: #2F80ED;
+    border: none;
+    color: white;
+    padding: 6px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    }
+}
+
 </style>
