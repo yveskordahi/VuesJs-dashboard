@@ -145,7 +145,7 @@
                                   </div>
                                   <hr class="notification__note__separator">
                               <div class="block__overflow__avis">
-                                  
+                                <router-link class="" to="/Avisdetails">
                                   <a href="avis-details.html" class="notification__block--selector">
                                       <div class="notification__block__historic__note__avis">
                                           <div class="avis__name">
@@ -167,6 +167,7 @@
                                           <p class="nb__avis">12</p>
                                       </div>
                                   </a>
+                                </router-link>
                                   <hr class="notification__note__separator">
                                   <a href="#" class="notification__block--selector">
                                       <div class="notification__block__historic__note__avis">
@@ -367,5 +368,15 @@ nav ul {
   width: 120px;
   top: 0;
   margin-left: 0;
+}
+
+.container {
+    width: 15%;
+}
+
+.avis__name-name {
+    padding-left: 10px;
+    font-size: 15px;
+    width: 186px;
 }
 </style>

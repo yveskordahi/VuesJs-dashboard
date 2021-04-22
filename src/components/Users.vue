@@ -156,8 +156,26 @@
                                                   <input class="trash__checkbox" type="checkbox">
                                                   <span class="checkmark"></span>
                                               </label>
-                                              <img class="avis__name-picture" src="../assets/img/img-mail.svg" alt="">
+                                              <img class="avis__name-picture" src="../assets/img/mike.png" alt="">
                                               <p class="avis__name-name">Cameron Williamson</p>
+                                          </div>
+                                          <h2 class="email__users">Cam.William@hakenaals.com</h2>
+                                          <div>
+                                              <p class="role__users">Administrateur</p>
+                                          </div>
+                                          <p class="nb__avis">12</p>
+                                      </div>
+                                  </a>
+                                  <hr class="notification__note__separator">
+                                  <a href="#" class="notification__block--selector">
+                                      <div class="notification__block__historic__note__avis">
+                                          <div class="avis__name">
+                                              <label class="container">
+                                                  <input class="trash__checkbox" type="checkbox">
+                                                  <span class="checkmark"></span>
+                                              </label>
+                                              <img class="avis__name-picture" src="../assets/img/Chad-Profile-pic-circle.png" alt="">
+                                              <p class="avis__name-name">Mike Travor</p>
                                           </div>
                                           <h2 class="email__users">guy.hawkins@hakenaals.com</h2>
                                           <div>
@@ -174,10 +192,10 @@
                                                   <input class="trash__checkbox" type="checkbox">
                                                   <span class="checkmark"></span>
                                               </label>
-                                              <img class="avis__name-picture" src="../assets/img/img-mail.svg" alt="">
-                                              <p class="avis__name-name">Cameron Williamson</p>
+                                              <img class="avis__name-picture" src="../assets/img/tiph.png" alt="">
+                                              <p class="avis__name-name">Tiphanie Greno</p>
                                           </div>
-                                          <h2 class="email__users">guy.hawkins@hakenaals.com</h2>
+                                          <h2 class="email__users">Tiphanie.gre@hakenaals.com</h2>
                                           <div>
                                               <p class="role__users">Administrateur</p>
                                           </div>
@@ -192,10 +210,10 @@
                                                   <input class="trash__checkbox" type="checkbox">
                                                   <span class="checkmark"></span>
                                               </label>
-                                              <img class="avis__name-picture" src="../assets/img/img-mail.svg" alt="">
-                                              <p class="avis__name-name">Cameron Williamson</p>
+                                              <img class="avis__name-picture" src="../assets/img/Emily.png" alt="">
+                                              <p class="avis__name-name">Emily Kisner</p>
                                           </div>
-                                          <h2 class="email__users">guy.hawkins@hakenaals.com</h2>
+                                          <h2 class="email__users">Emily.kisner@hakenaals.com</h2>
                                           <div>
                                               <p class="role__users">Administrateur</p>
                                           </div>
@@ -210,28 +228,10 @@
                                                   <input class="trash__checkbox" type="checkbox">
                                                   <span class="checkmark"></span>
                                               </label>
-                                              <img class="avis__name-picture" src="../assets/img/img-mail.svg" alt="">
-                                              <p class="avis__name-name">Cameron Williamson</p>
+                                              <img class="avis__name-picture" src="../assets/img/steve.png" alt="">
+                                              <p class="avis__name-name">Steve Williou</p>
                                           </div>
-                                          <h2 class="email__users">guy.hawkins@hakenaals.com</h2>
-                                          <div>
-                                              <p class="role__users">Administrateur</p>
-                                          </div>
-                                          <p class="nb__avis">12</p>
-                                      </div>
-                                  </a>
-                                  <hr class="notification__note__separator">
-                                  <a href="#" class="notification__block--selector">
-                                      <div class="notification__block__historic__note__avis">
-                                          <div class="avis__name">
-                                              <label class="container">
-                                                  <input class="trash__checkbox" type="checkbox">
-                                                  <span class="checkmark"></span>
-                                              </label>
-                                              <img class="avis__name-picture" src="../assets/img/img-mail.svg" alt="">
-                                              <p class="avis__name-name">Cameron Williamson</p>
-                                          </div>
-                                          <h2 class="email__users">guy.hawkins@hakenaals.com</h2>
+                                          <h2 class="email__users">Steve.Williou@hakenaals.com</h2>
                                           <div>
                                               <p class="role__users">Administrateur</p>
                                           </div>
@@ -336,5 +336,15 @@ nav ul {
   width: 120px;
   top: 0;
   margin-left: 0;
+}
+
+.container {
+    width: 15%;
+}
+
+.avis__name-name {
+    padding-left: 10px;
+    font-size: 15px;
+    width: 186px;
 }
 </style>
