@@ -1,6 +1,5 @@
 <template>
     <div>
-<<<<<<< HEAD
         <nav>
             <input type="checkbox" id="check">
             <label for="check" class="checkbtn">
@@ -13,8 +12,6 @@
                 <li><router-link class="" to="/Inscription"><a class="sign__up__btn" href="">Inscription</a></router-link></li>
             </ul>
         </nav>
-=======
->>>>>>> 1872bcdbea53ff130b6d64d54ff839381ed2f13f
         <section>
             <div class="container--create__account">
                 <div class="home__add-users">
