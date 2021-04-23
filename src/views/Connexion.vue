@@ -1,5 +1,6 @@
 <template>
     <div>
+<<<<<<< HEAD
         <nav>
             <input type="checkbox" id="check">
             <label for="check" class="checkbtn">
@@ -12,12 +13,14 @@
                 <li><router-link class="" to="/Inscription"><a class="sign__up__btn" href="">Inscription</a></router-link></li>
             </ul>
         </nav>
+=======
+>>>>>>> 1872bcdbea53ff130b6d64d54ff839381ed2f13f
         <section>
             <div class="container--create__account">
                 <div class="home__add-users">
                     <div class="home__content__login">
                         <div class="form__container">
-                            <form action="action_page.php">
+                            <form action="">
         
                                 <div class="form__title">
                                     <p>Consultez les notations et emmettez des avis</p>
@@ -41,9 +44,7 @@
                                 <router-link class="" to="/Dashboard"><a href="dashboard.html"><button class="btn-login">Se connecter</button></a></router-link>
                               </div>
     
-                              <hr class="login--separator">
-    
-                              <p class="not__register--text">Vous n'avez pas de compte ? <router-link class="" to="/Inscription"><a class="button__not-register" href="create-account.html">Créez en un !</a></router-link></p>
+                              
                             </div>
                             </form>
                         </div> 
@@ -59,12 +60,21 @@
 </script>
 
 <style scoped>
-@import '../assets/styles/reset.css';
-@import '../assets/styles/sidebar.css';
-@import '../assets/styles/style.css';
-@import '../assets/styles/navbar.css';
-@import '../assets/styles/pricing.css';
-@import '../assets/styles/addUsers.css';
-@import '../assets/styles/create--account.css';
-@import '../assets/styles/login.css';
+@import '../assets/styles/connexion/1reset.css';
+@import '../assets/styles/connexion/1addUsers.css';
+@import '../assets/styles/connexion/1create--account.css';
+@import '../assets/styles/connexion/1login.css';
+
+body {
+    background-color: #F6FAFF;
+}
+
+section {
+    height: 100vh;
+    background-color: #F6FAFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 </style>
