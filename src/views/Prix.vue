@@ -5,7 +5,7 @@
             <label for="check" class="checkbtn">
                 <font-awesome-icon :icon="['fas', 'bars']" />
             </label>
-            <router-link class="" to="/Home"><a href=""><img src="../assets/img/Logo_2.svg" class="logo"></a></router-link>
+            <router-link class="" to="/"><a href=""><img src="../assets/img/Logo_2.svg" class="logo"></a></router-link>
             <ul>
                 <li><router-link class="" to="/Prix"><a href="">Prix</a></router-link></li>
                 <li><router-link class="" to="/Connexion"><a href="">Connexion</a></router-link></li>
